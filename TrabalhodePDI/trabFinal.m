@@ -27,4 +27,6 @@ PH =  imfill(PD, 'holes');
 %%%%Limpar as bordas
 PBR = imclearborder(PH, 8);
 
+
+%%%subtrair PBR e PB
 imshow(PBR);
